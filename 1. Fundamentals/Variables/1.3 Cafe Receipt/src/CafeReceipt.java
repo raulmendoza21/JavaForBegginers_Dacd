@@ -7,7 +7,7 @@ public class CafeReceipt
       //Print that information in the console.
       String customerName = "Hisao";
       int cupsOfCoffee = 1;
-      String tip = "True";
+	   String tip = "true";
       double costOfCoffee = 99.9;
       System.out.println("Dear " + customerName + ", thank you for supporting our business!");
       System.out.println("Cups of coffee bought: " + cupsOfCoffee + ".");
