@@ -7,9 +7,9 @@ public class Chessboard
       for (int y = 0; y < chessboard.length; y++) {
          for (int x = 0; x < chessboard.length; x++) {
             if ((x + y) % 2 == 0)
-               chessboard[y][x] = '\u25A1';
+               chessboard[y][x] = '□';
             else
-               chessboard[y][x] = '\u25A0';
+               chessboard[y][x] = '■';
          }
       }
 
